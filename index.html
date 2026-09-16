@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+gsap.from(".hero-title", { opacity: 0, y: 50, duration: 1 });
+</script>
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +15,9 @@
 <body>
 <header>
 <h1>Sergio Tovar</h1>
-<p>Researcher</p>
+<p>Economist</p>
 <nav>
+<a href="#about">About</a>
 <a href="#research">Research Interests</a>
 <a href="#publications">Publications</a>
 <a href="#sciencediss">Science dissemination</a>
@@ -20,19 +27,21 @@
 <main>
 <section id="about">
 <h2>About</h2>
-<p>Short professional bio.</p>
+<p>I am an economist by profession and an engineer for fun.</p>
 </section>
 <section id="research">
-<h2>Research Animations</h2>
+<h2>Research</h2>
+
 <!-- MATLAB animations will go here -->
 </section>
-<section id="models">
+<section id="sciencediss">
 <h2>Science dissemination</h2>
+
 <!-- Blender/CATIA models will go here -->
 </section>
 </main>
 <footer>
-<p>&copy; 2026 Sergio Tovar|</p>
+<p>&copy; 2027 Sergio Tovar|</p>
 </footer>
 <script src="script.js"></script>
 </body>
